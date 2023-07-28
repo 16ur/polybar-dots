@@ -1,0 +1,53 @@
+[colors]
+;background = ${xrdb:color0:#222}
+
+
+
+background = #2E3440
+
+foreground = #bdc6ce
+
+
+
+
+wm-restack = i3
+
+
+[bar/topright]
+    include-file = /home/axel/.config/polybar/modules/topright.ini
+
+[bar/center]
+    include-file = /home/axel/.config/polybar/modules/center.ini
+
+[bar/top]
+    include-file = /home/axel/.config/polybar/modules/top.ini
+
+
+# Module topright
+
+[module/pulseaudio]
+    include-file = /home/axel/.config/polybar/modules/pulseaudio.ini
+
+[module/date]
+    include-file = /home/axel/.config/polybar/modules/date.ini
+
+[module/battery]
+    include-file = /home/axel/.config/polybar/modules/battery.ini
+
+
+# Module Top
+
+[module/wlan]
+    include-file = /home/axel/.config/polybar/modules/wlan.ini
+
+
+[module/workspaces]
+    include-file = /home/axel/.config/polybar/modules/workspaces.ini
+
+
+
+[module/placeholder]
+# Just a dummy module as polybar always requires at least one amodule
+type = custom/script
+width = 1
+
