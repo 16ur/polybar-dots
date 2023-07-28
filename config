@@ -7,13 +7,13 @@ wm-restack = i3
 
 
 [bar/topright]
-    include-file = /home/axel/.config/polybar/modules/topright.ini
+    include-file = ${HOME}/.config/polybar/modules/topright.ini
 
 [bar/center]
-    include-file = /home/axel/.config/polybar/modules/center.ini
+    include-file = ${HOME}/.config/polybar/modules/center.ini
 
 [bar/top]
-    include-file = /home/axel/.config/polybar/modules/top.ini
+    include-file = ${HOME}/.config/polybar/modules/top.ini
 
 
 [module/placeholder]
@@ -24,25 +24,25 @@ width = 1
 # Module topright
 
 [module/pulseaudio]
-    include-file = /home/axel/.config/polybar/modules/pulseaudio.ini
+    include-file = ${HOME}/.config/polybar/modules/pulseaudio.ini
 
 
 [module/battery]
-    include-file = /home/axel/.config/polybar/modules/battery.ini
+    include-file = ${HOME}/.config/polybar/modules/battery.ini
 
 [module/wlan]
-    include-file = /home/axel/.config/polybar/modules/wlan.ini
+    include-file = ${HOME}/.config/polybar/modules/wlan.ini
 
 # Module Top-left
 
 [module/workspaces]
-    include-file = /home/axel/.config/polybar/modules/workspaces.ini
+    include-file = ${HOME}/.config/polybar/modules/workspaces.ini
 
 
 # Module center
 
 [module/date]
-    include-file = /home/axel/.config/polybar/modules/date.ini
+    include-file = ${HOME}/.config/polybar/modules/date.ini
 
 
 
